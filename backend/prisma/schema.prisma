@@ -1,0 +1,26 @@
+datasource db {
+  provider = postgresql
+  url      = env('DATABASE_URL')
+}
+
+model Dashboard {
+  id       Int     @id @default(autoincrement())
+  name     String
+  description String?
+  widgets   Widget[]
+}
+
+model Widget {
+  id       Int     @id @default(autoincrement())
+  dashboard   Dashboard   @relation(fields: [dashboardId], references: [id])
+  dashboardId Int
+  type     String
+  data     Json?
+}
+
+model Report {
+  id       Int     @id @default(autoincrement())
+  name     String
+  description String?
+  data     Json?
+}
