@@ -1,0 +1,11 @@
+/* color palette */
+:root {
+  --color-primary: rgba(59, 130, 246, 1);
+  --color-secondary: rgba(16, 185, 129, 1);
+  --color-error: rgba(239, 68, 68, 1);
+  --color-warning: rgba(245, 158, 11, 1);
+  --color-success: rgba(139, 92, 246, 1);
+  --color-info: rgba(107, 114, 128, 1);
+  --color-light: rgba(255, 255, 255, 1);
+  --color-dark: rgba(17, 24, 39, 1);
+}
