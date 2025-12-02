@@ -1,0 +1,1 @@
+[{'filename': 'index.html', 'content': '<!DOCTYPE html><html><head><title>Frontend Code</title></head><body><h1>Frontend Code</h1></body></html>'}, {'filename': 'script.js', 'content': '// JavaScript code goes here'}, {'filename': 'style.css', 'content': '/* CSS styles go here */'}]
