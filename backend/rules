@@ -1,0 +1,1 @@
+['All strings must be properly quoted and escaped', 'No trailing commas', 'All braces and brackets must be closed', 'Return ONLY the JSON object, no explanations']
